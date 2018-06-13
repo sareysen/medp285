@@ -10,28 +10,33 @@
 		<meta name="description" content="A portfolio of the work done during Web Production I.">
 		<meta name="author" content="Sarah A. Reysen">
 
-    	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto+Condensed" rel="stylesheet"> 
+    	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Didact+Gothic|Economica|Khand|Varela+Round" rel="stylesheet"> 
 
 		<style>
 			body {
 				align-content: center;
-				background-color: rgba(93, 55, 79, 1);
+				background-color: rgba(20, 20, 20, 1);
 				color: rgba(251, 248, 248, 1);
-				font-family: 'Comfortaa', cursive;
+				font-family: 'Didact Gothic', sans-serif;
 				font-size: 15px;
 				line-height: 20px;
-				margin-left: auto;
-				margin-right: auto;
-				margin-top: 5em;
-				padding-top: 1em;
+				margin: 0;
+				padding: 0;
 				text-align: justify;
+			}
+			header {
+				margin: 0 auto;
+				padding: 5em 0 0 0;
 				width: 1280px;
 			}
 			body a {
-				color: rgba(50, 13, 39, 1);
+				color: rgba(196, 168, 170, 1);
 				text-decoration: none;
 			}
-			body a:hover { color: rgba(196, 168, 170, 1); }
+			body a:hover { 
+				color: rgba(50, 13, 39, 1);
+				font: bold;
+			}
 			nav {
 				align-self: center;
 				color: rgba(251, 248, 248, 1);
@@ -50,7 +55,10 @@
 				color: rgba(236, 235, 240, 1);
 				text-decoration: none;
 			}
-			nav a:hover { color: rgba(196, 168, 170, 1); }
+			nav a:hover { 
+				color: rgba(93, 55, 79, 1); 
+				font: bold;
+			}
 			nav ul { 
 				display: inline-block;
 				list-style-type: none;
@@ -68,6 +76,7 @@
 			}
 			nav ul li:last-child { border-right: none; }
 			nav ul li:first-child { padding-left: 0; }
+			}
 			h1 {
 				font-family: 'Roboto Condensed', sans-serif;
 				font-size: 20px;
@@ -75,36 +84,34 @@
 				text-align: center;
 			}
 			#projects {
-				border: rgba(60, 23, 49, 1) hidden 3px;
-				margin-bottom: 10px;
-				padding-left: 10px;
-				padding-right: 10px;
+				margin: 0 auto;
+				padding: 2.5em 0 0 0;
 				text-align: center;
+				width: 40%;
 			}
 			#projects ul {
 				list-style: none;
     			padding-left: 0;
 			}
 			#about {
-				border: rgba(60, 23, 49, 1) hidden 3px;
-				margin-bottom: 10px;
-				padding-left: 10px;
-				padding-right: 10px;
-				text-align: justify;
+				margin: 0 auto;
+				padding: 1em 0 0 0;
+				width: 40%;
 			}
+			#about h1 { text-align: center; }
+			#about p { text-align: justify; }
 			#news {
-				border: rgba(60, 23, 49, 1) hidden 3px;
-				margin-bottom: 10px;
-				padding-left: 10px;
-				padding-right: 10px;
+				margin: auto;
+				padding: 1em 0 0 0;
 				text-align: center;
+				width: 40%;
 			}
 			#attribution {
 				font-size: 12px;
-				margin-bottom: 10px;
-				padding-left: 10px;
-				padding-right: 10px;
-				text-align: center;
+				padding: 1em 0 0 0;
+				margin: 0 auto;
+				text-align: center;				
+				width: 40%;
 			}
 		</style>
 
@@ -127,9 +134,9 @@
 		<!-- home -->
 		<header id="home">
 			<picture>
-				<source media="(min-width: 1280px)" srcset="img/banner1280.png">
-				<source media="(min-width: 960px)" srcset="img/banner960.png">
-				<img src="img/banner480.png" alt="A cloudy evening.">
+				<source media="(min-width: 1280px)" srcset="img/header1280.png">
+				<source media="(min-width: 960px)" srcset="img/header960.png">
+				<img src="img/header480.png" alt="ILUV2GLITCH.">
 			</picture>
 		</header>
 
@@ -140,8 +147,8 @@
 				<ul>
 					<li><a href="photoEssay.html" target="_blank">PHOTO ESSAY</a></li>
 					<li><a href="videoTest.html" target="_blank">VIDEO TEST</a></li>
+					<li><a href="floatingBoxes.html" target="_blank">FLOATING BOXES</a></li>
 				</ul>
-				<br><br>
 			</p>
 		</section>
 
@@ -150,7 +157,6 @@
 			<h1>ABOUT ME</h1>
 			<p>
 			I'm currently an undergrad student at Hunter College, slated to graduate in the fall. I'm majoring in both Psychology and Media Studies, and if I had more time and money, I probably would've minored in Computer Science, too. There's a lot of fun intersectionality between the three of them. I started messing around in Photoshop when I was 14 so I could make stuff for my friends (typically avatars and signatures, back when forums were still a thing). It kind of progressed from there and I started to play around in a few different kinds of software to make different kinds of art, but I never really learned how to properly use the tools outside of my specific needs. I've always been someone who's taken the 'jack of all trades, master of none' approach to my life and work, mostly because I could never settle on something that interested me for an extended period of time. But I'm still working towards figuring it out. And maybe someday I will.
-			<br><br><br>
 			</p>
 		</section>
 
@@ -183,7 +189,6 @@
 				</tr>
 			</table>
 			</center>
-			<br><br>
 			</p>
 		</section>
 
