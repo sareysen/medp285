@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<title>A Web Document</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="A portfolio of the work done during Web Production I.">
+		<meta name="author" content="Sarah A. Reysen">
+
+    	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Didact+Gothic|Economica|Khand|Varela+Round" rel="stylesheet"> 
+
+		<style>
+			body {
+				align-content: center;
+				background-color: rgba(20, 20, 20, 1);
+				color: rgba(251, 248, 248, 1);
+				font-family: 'Didact Gothic', sans-serif;
+				font-size: 15px;
+				line-height: 20px;
+				margin: 0;
+				padding: 0;
+				text-align: justify;
+			}
+			header {
+				margin: 0 auto;
+				padding: 5em 0 0 0;
+				width: 1280px;
+			}
+			body a {
+				color: rgba(196, 168, 170, 1);
+				text-decoration: none;
+			}
+			body a:hover { 
+				color: rgba(50, 13, 39, 1);
+				font: bold;
+			}
+			nav {
+				align-self: center;
+				color: rgba(251, 248, 248, 1);
+				background-color: rgba(23, 25, 27, .85);
+				background-image: rgba(23, 25, 27, .85);
+				height: 2.5em;
+				left: 0px;
+				padding-bottom: 10px;
+				position: fixed;
+				text-align: center;
+				top: 0px;
+				width: 100%;
+				z-index: 100;
+			}
+			nav a {
+				color: rgba(236, 235, 240, 1);
+				text-decoration: none;
+			}
+			nav a:hover { 
+				color: rgba(93, 55, 79, 1); 
+				font: bold;
+			}
+			nav ul { 
+				display: inline-block;
+				list-style-type: none;
+			}
+			nav ul li {
+				border-right: 1px none rgba(153, 153, 153, 1);
+				border-width: 1px;
+				display: inline;
+				font-family: 'Roboto Condensed', sans-serif;
+				font-size: 15px;
+				margin-top: 0;
+				padding: 20px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			nav ul li:last-child { border-right: none; }
+			nav ul li:first-child { padding-left: 0; }
+			}
+			h1 {
+				font-family: 'Roboto Condensed', sans-serif;
+				font-size: 20px;
+				font-variant: small-caps; 
+				text-align: center;
+			}
+			#projects {
+				margin: 0 auto;
+				padding: 2.5em 0 0 0;
+				text-align: center;
+				width: 40%;
+			}
+			#projects ul {
+				list-style: none;
+    			padding-left: 0;
+			}
+			#about {
+				margin: 0 auto;
+				padding: 1em 0 0 0;
+				width: 40%;
+			}
+			#about h1 { text-align: center; }
+			#about p { text-align: justify; }
+			#news {
+				margin: auto;
+				padding: 1em 0 0 0;
+				text-align: center;
+				width: 40%;
+			}
+			#attribution {
+				font-size: 12px;
+				padding: 1em 0 0 0;
+				margin: 0 auto;
+				text-align: center;				
+				width: 40%;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<!-- navigation -->
+		<nav id="nav">
+			<ul>
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#projects">PROJECTS</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#news">NEWS</a></li>
+				<li><a href="#attribution">ATTRIBUTION</a></li>
+				<li><a href="http://sareysen.tumblr.com/" target="_blank">BLOG</a></li>
+			</ul>
+		</nav>
+
+		<!-- home -->
+		<header id="home">
+			<picture>
+				<source media="(min-width: 1280px)" srcset="img/header1280.png">
+				<source media="(min-width: 960px)" srcset="img/header960.png">
+				<img src="img/header480.png" alt="ILUV2GLITCH.">
+			</picture>
+		</header>
+
+		<!-- projects -->
+		<section id="projects">
+			<h1>PROJECTS</h1>
+			<p>
+				<ul>
+					<li><a href="photoEssay.html" target="_blank">PHOTO ESSAY</a></li>
+					<li><a href="videoTest.html" target="_blank">VIDEO TEST</a></li>
+					<li><a href="floatingBoxes.html" target="_blank">FLOATING BOXES</a></li>
+				</ul>
+			</p>
+		</section>
+
+		<!-- about -->
+		<section id="about">
+			<h1>ABOUT ME</h1>
+			<p>
+			I'm currently an undergrad student at Hunter College, slated to graduate in the fall. I'm majoring in both Psychology and Media Studies, and if I had more time and money, I probably would've minored in Computer Science, too. There's a lot of fun intersectionality between the three of them. I started messing around in Photoshop when I was 14 so I could make stuff for my friends (typically avatars and signatures, back when forums were still a thing). It kind of progressed from there and I started to play around in a few different kinds of software to make different kinds of art, but I never really learned how to properly use the tools outside of my specific needs. I've always been someone who's taken the 'jack of all trades, master of none' approach to my life and work, mostly because I could never settle on something that interested me for an extended period of time. But I'm still working towards figuring it out. And maybe someday I will.
+			</p>
+		</section>
+
+		<!-- news -->
+		<section id="news">
+			<h1>NEWS</h1>
+			<p>
+			This section is for keeping track of video games that are set to come out this summer!
+			<center>
+				<table border="1">
+				<tr>
+					<th>TITLE</th>
+					<th>DATE</th>
+					<th>PLATFORM(S)</th>
+				</tr>
+				<tr>
+					<td>Vampyr</td>
+					<td>06/05</td>
+					<td>PS4, Xbox One, PC</td>
+				</tr>
+				<tr>
+					<td>Octopath Traveler</td>
+					<td>07/13</td>
+					<td>Switch</td>
+				</tr>
+				<tr>
+					<td>Yakuza Kiwami 2</td>
+					<td>08/28</td>
+					<td>PS4</td>
+				</tr>
+			</table>
+			</center>
+			</p>
+		</section>
+
+		<!-- footer - attribution -->
+		<footer id="attribution">
+			<p>This work is licensed under the Creative Commons Attribution + Noncommercial 3.0 License.
+			<time datetime="2018-06-04 16:00"></time>
+			</p>
+		</footer>
+
+	</body>
+
+</html>
